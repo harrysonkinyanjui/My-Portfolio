@@ -1,1 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harrison Kinyanjui | IT Student & Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Harrison<span>.dev</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme" title="Switch Theme">🌙</button>
+                <button class="menu-toggle icon-btn" id="menuToggle" aria-label="Menu">☰</button>
+            </div>
+        </nav>
+    </header>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-blob"></div>
+        <div class="hero-content">
+            <span class="badge">👋 Welcome to my portfolio</span>
+            <h1>Hi, I'm <span class="highlight">Harrison Kinyanjui</span></h1>
+            <h2 class="typing-container">Second-Year IT Student & <span id="typingText">Web Developer</span><span class="cursor">|</span></h2>
+            <p class="hero-desc">
+                Currently pursuing Information Technology at <strong>Kirinyaga University</strong>. Passionate about building responsive web interfaces, writing efficient algorithms in C/C++ and Python, and solving real-world problems through code.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">Explore My Work</a>
+                <a href="https://wa.me/254792123186" target="_blank" class="btn whatsapp-btn">💬 Chat on WhatsApp</a>
+                <a href="https://github.com/harrisonkinyanjui" target="_blank" class="btn secondary-btn">GitHub Profile</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-header">
+            <span class="section-subtitle">Get To Know Me</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>Who I Am</h3>
+                <p>
+                    I am an enthusiastic Second-Year Information Technology student at <strong>Kirinyaga University</strong>. My journey into tech is driven by curiosity and a hands-on approach to understanding how software and systems work from the ground up.
+                </p>
+                <p>
+                    Whether I am structuring responsive front-end applications with HTML, CSS, and JavaScript or writing low-level logic in C, C++, and Python, I enjoy turning ideas into clean, reliable solutions.
+                </p>
+            </div>
+            <div class="quick-info-card">
+                <h3>Quick Details</h3>
+                <ul class="info-list">
+                    <li><strong>Name:</strong> Harrison Kinyanjui</li>
+                    <li><strong>Institution:</strong> Kirinyaga University</li>
+                    <li><strong>Year of Study:</strong> 2nd Year (IT)</li>
+                    <li><strong>Phone / WhatsApp:</strong> <a href="tel:+254792123186">0792123186</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/harrisonkinyanjui" target="_blank">@harrisonkinyanjui</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline Section -->
+    <section id="education" class="section bg-alt">
+        <div class="section-header">
+            <span class="section-subtitle">My Academic Journey</span>
+            <h2 class="section-title">Education Background</h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-tag">Current • 2nd Year</span>
+                    <h3>Kirinyaga University</h3>
+                    <h4>Bachelor of Science in Information Technology</h4>
+                    <p>Developing strong foundations in web application development, object-oriented programming, data structures, networking, and database systems.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-tag">Form 1 – Form 4</span>
+                    <h3>Secondary Education</h3>
+                    <h4>Kenya Certificate of Secondary Education (KCSE)</h4>
+                    <p>Completed four years of high school education, building analytical skills, discipline, and qualifying for university admission.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-tag">Nursery – Class 8</span>
+                    <h3>Primary Education</h3>
+                    <h4>Kenya Certificate of Primary Education (KCPE)</h4>
+                    <p>Built my foundational academic skills from early childhood through Grade 8, successfully graduating to join secondary school.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <span class="section-subtitle">My Technical Toolkit</span>
+            <h2 class="section-title">Programming & Web Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>HTML5</h3>
+                    <span>90%</span>
+                </div>
+                <p>Semantic markup, accessible web structures, and SEO-friendly page layouts.</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>CSS3</h3>
+                    <span>85%</span>
+                </div>
+                <p>Responsive Flexbox/Grid layouts, custom animations, and modern UI styling.</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>JavaScript (ES6+)</h3>
+                    <span>80%</span>
+                </div>
+                <p>DOM manipulation, interactive web features, form validation, and event handling.</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>Python</h3>
+                    <span>82%</span>
+                </div>
+                <p>Scripting, problem-solving, automation, and clean back-end logic.</p>
+                <div class="progress-bar"><div class="progress" style="width: 82%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>C Programming</h3>
+                    <span>78%</span>
+                </div>
+                <p>Structured programming, memory management, pointers, and core algorithms.</p>
+                <div class="progress-bar"><div class="progress" style="width: 78%;"></div></div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-top">
+                    <h3>C++</h3>
+                    <span>75%</span>
+                </div>
+                <p>Object-Oriented Programming (OOP), classes, data structures, and system logic.</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="section-header">
+            <span class="section-subtitle">What I've Built</span>
+            <h2 class="section-title">Featured Coursework & Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-badge">Web Development</div>
+                <h3>Personal Portfolio Website</h3>
+                <p>A responsive, multi-section portfolio built from scratch featuring dark/light mode persistence, interactive animations, and direct communication integration.</p>
+                <div class="tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/harrisonkinyanjui" target="_blank" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Systems & Logic</div>
+                <h3>Student Grading & Record System</h3>
+                <p>A console-based management system implementing file handling, structured data records, and automated grade computation.</p>
+                <div class="tags">
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>OOP</span>
+                </div>
+                <a href="https://github.com/harrisonkinyanjui" target="_blank" class="project-link">View on GitHub →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-badge">Automation</div>
+                <h3>Python Utility & Number Converter</h3>
+                <p>A command-line utility script for converting between binary, decimal, octal, and hexadecimal number systems with input validation.</p>
+                <div class="tags">
+                    <span>Python</span>
+                    <span>Algorithms</span>
+                </div>
+                <a href="https://github.com/harrisonkinyanjui" target="_blank" class="project-link">View on GitHub →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-header">
+            <span class="section-subtitle">Let's Connect</span>
+            <h2 class="section-title">Get In Touch</h2>
+        </div>
+        <div class="contact-wrapper">
+            <div class="contact-methods">
+                <a href="https://wa.me/254792123186" target="_blank" class="contact-box">
+                    <span class="contact-icon">💬</span>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>+254 792 123 186</p>
+                    </div>
+                </a>
+                <a href="tel:+254792123186" class="contact-box">
+                    <span class="contact-icon">📞</span>
+                    <div>
+                        <h4>Call Direct</h4>
+                        <p>0792123186</p>
+                    </div>
+                </a>
+                <a href="https://github.com/harrisonkinyanjui" target="_blank" class="contact-box">
+                    <span class="contact-icon">💻</span>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p>github.com/harrisonkinyanjui</p>
+                    </div>
+                </a>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <h3>Send a Quick Message</h3>
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="e.g., Jane Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="e.g., jane@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn primary-btn full-width">Send Message</button>
+                <p id="formFeedback" class="feedback-msg"></p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year">2026</span> <strong>Harrison Kinyanjui</strong> • Kirinyaga University. Built with HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                                 </html>
+          
